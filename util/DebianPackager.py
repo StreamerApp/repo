@@ -504,7 +504,7 @@ class DebianPackager(object):
                         output['developer']['name'] = repo_settings['developer']
                         output['developer']['email'] = ""
                         output['works_min'] = repo_settings['works_min']
-                        output['works_max'] = "16.0"
+                        output['works_max'] = repo_settings['works_max']
                         output['featured'] = "false"
                     PackageLister.CreateFolder(self, "Packages/" + folder + "/silica_data/")
                     PackageLister.CreateFile(self, "Packages/" + folder + "/silica_data/index.json", json.dumps(output))

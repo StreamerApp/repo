@@ -19,5 +19,6 @@
     ],
     "developer": "Streamer",
     "works_min": "14.0",
+    "works_max": "16.0",
     "automatic_git": "false"
 }
