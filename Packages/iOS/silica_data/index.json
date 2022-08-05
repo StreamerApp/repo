@@ -1,0 +1,20 @@
+{
+    "bundle_id": "com.mo.streamer.ios",
+    "name": "streamer-iOS",
+    "version": "1.2.6",
+    "tagline": "App for Streaming Movies and TV shows on iOS and tvOS",
+    "homepage": "https://github.com/StreamerApp/Streamer",
+    "developer": {
+        "name": "Streamer",
+        "email": ""
+    },
+    "maintainer": {
+        "name": "Streamer",
+        "email": ""
+    },
+    "section": "Applications",
+    "works_min": "14.0",
+    "works_max": "",
+    "featured": "",
+    "dependencies": ""
+}

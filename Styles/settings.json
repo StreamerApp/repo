@@ -1,0 +1,23 @@
+{
+    "name": "Streamer",
+    "description": "App for Streaming Movies and TV shows on iOS and tvOS",
+    "tint": "",
+    "cname": "streamerapp.github.io/repo",
+    "maintainer": {
+        "name": "Streamer",
+        "email": ""
+    },
+    "social": [
+        {
+            "name": "Discord",
+            "url": "https://discord.com/invite/XhZwzuwKPM"
+        },
+        {
+            "name": "Website",
+            "url": "https://github.com/StreamerApp/Streamer"
+        }
+    ],
+    "developer": "Streamer",
+    "works_min": "14.0",
+    "automatic_git": "false"
+}
