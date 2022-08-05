@@ -570,8 +570,7 @@ class DepictionGenerator:
         return {
             "software": "Silica",
             "version": self.version,
-            "compile_date": compile_date,
-            "upstream_url": upstream_url
+            "compile_date": compile_date
         }
 
     def RenderNativeHelp(self, tweak_data):
