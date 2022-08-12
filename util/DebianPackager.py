@@ -265,10 +265,11 @@ class DebianPackager(object):
                         # Remove the Control; it's not needed.
                         try:
                             os.remove(self.root + "Packages/" + folder + "/silica_data/scripts/control")
+                            if not os.listdir(self.root + "Packages/" + folder + "/silica_data/scripts/"):
+                                os.rmdir(self.root + "Packages/" + folder + "/silica_data/scripts/")
                         except OSError:
                             pass
-                        if not os.listdir(self.root + "Packages/" + folder + "/silica_data/scripts/"):
-                            os.rmdir(self.root + "Packages/" + folder + "/silica_data/scripts/")
+                        
 
                         return_str = json.dumps(update_json)
                         print("Updating package index.json...")
